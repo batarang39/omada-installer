@@ -31,6 +31,8 @@ if [[ $OS = *"Ubuntu 20.04"* ]]; then
     OsVer=focal
 elif [[ $OS = *"Ubuntu 22.04"* ]]; then
     OsVer=jammy
+elif [[ $OS = *"Ubuntu 24.04"* ]]; then
+    OsVer=noble
 else
     echo -e "\e[1;31m[!] Script currently only supports Ubuntu 20.04 or 22.04! \e[0m"
     exit
